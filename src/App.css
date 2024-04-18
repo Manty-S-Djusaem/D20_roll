@@ -1,0 +1,67 @@
+.app {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dice-container {
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInDice 0.5s forwards;
+}
+
+.dice-container img {
+    width: 150px;
+    height: auto;
+}
+
+.result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.roll_image {
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 140px;
+    cursor: pointer;
+}
+
+.history {
+    width: 30%;
+    color: #F5F5F5;
+}
+
+@keyframes fadeInDice {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header_name{
+    color: #0e1111;
+}
