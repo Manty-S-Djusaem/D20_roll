@@ -2,11 +2,16 @@
       <button onClick={() => setSelectedGenre('Дарк Фентези')} className='ganre_buttons' style={{ backgroundColor: '#7c0200', color: 'black' }}>Дарк Фентези</button>
       <button onClick={() => setSelectedGenre('Пост Апокалипсис')} className='ganre_buttons' style={{ backgroundColor: '#efdb9a', color: 'black' }}>Пост Апокалипсис</button>
       <button onClick={() => setSelectedGenre('Комедия')} className='ganre_buttons' style={{ backgroundColor: '#ffe37a', color: 'black' }}>Комедия</button>
-       <button onClick={() => setSelectedGenre('Фэнтези')} className='ganre_buttons'  style={{ backgroundColor: '#6fc276 ', color: 'black' }}>Фэнтези </button>
-      <button onClick={generateScenario} className="generate">
-        Генерировать сценарий
-      </button>
-      {scenario && (
-        <pre style={{ color: '#c2d6f6', fontSize: '18px' }}>{scenario}</pre>
-      )}
-    </div>
+      <button onClick={() => setSelectedGenre('Фэнтези')} className='ganre_buttons' style={{ backgroundColor: '#6fc276', color: 'black' }}> Фэнтези</button >
+      <button onClick={generateScenario} className="generate">Генерировать сценарий</button>
+
+      {
+        scenario && (
+          <pre style={{ color: '#c2d6f6', fontSize: '18px' }}>{scenario}</pre>
+        )
+      }
+
+      <Link to="/">
+        <button style={{ backgroundColor: '#efdb9a', color: 'black' }}>Вернуться к Кубу</button>
+      </Link>
+    </div >
