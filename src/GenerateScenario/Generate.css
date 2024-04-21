@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.generate_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.generate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #102c7a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate:hover {
+    background-color: #0a1d4f;
+}
+
+.scenario-text {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+
+.genre-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.ganre_buttons {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ganre_buttons {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.ganre_buttons:hover {
+    background-color: #555;
+}
