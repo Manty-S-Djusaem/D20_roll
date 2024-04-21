@@ -65,3 +65,11 @@
 .header_name{
     color: #0e1111;
 }
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
